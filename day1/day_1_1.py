@@ -51,6 +51,7 @@ import math
 def count_depth_increases():
   last_value = math.nan
   num_increase = 0
+
   with open('input1.txt', 'r') as f:
     for value in f:
       current_val = int(value)
@@ -60,6 +61,7 @@ def count_depth_increases():
       if current_val > last_value:
         num_increase += 1
       last_value = current_val
+
   print(num_increase)
 
 
