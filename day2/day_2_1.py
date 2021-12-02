@@ -49,4 +49,4 @@ with open('input2.txt', 'r') as f:
     if command == 'up':
       depth -= value
 
-print(f'depth: {depth}, horizontal: {horizontal}')
+print(f'depth: {depth}, horizontal: {horizontal}, depth x horizontal: {depth * horizontal}')
